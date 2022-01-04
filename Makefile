@@ -8,10 +8,10 @@ dropdb:
 	docker exec -it postgres12 dropdb secret_note
 
 migrateup:
-	migrate -path backend/db/migration -database "postgresql://root:secret@localhost:5432/secret_note?sslmode=disable" -verbose up
+	migrate -path backend/db/migration -database "postgresql://root:zjF5sPDdNCXpiPaNwKBC@secret-note.cwxj8womvdfn.us-east-2.rds.amazonaws.com:5432/secret_note" -verbose up
 
 migratedown:
-	migrate -path backend/db/migration -database "postgresql://root:secret@localhost:5432/secret_note?sslmode=disable" -verbose down
+	migrate -path backend/db/migration -database "postgresql://root:zjF5sPDdNCXpiPaNwKBC@secret-note.cwxj8womvdfn.us-east-2.rds.amazonaws.com:5432/secret_note" -verbose down
 
 sqlc:
 	sqlc generate
