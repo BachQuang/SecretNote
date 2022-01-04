@@ -27,7 +27,7 @@ jobs:
 
     - name: Load secrets and save to app.env
       run: aws secretsmanager get-secret-value --secret-id secret_note --query SecretString --output text | jq -r 'to_entries|map("\(.key)=\(.value)")|.[]' > app.env
-
+    
     - name: Build, tag, and push image to Amazon ECR
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
