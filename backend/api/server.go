@@ -58,9 +58,9 @@ func (server *Server) SetupRouter() {
 	router := gin.Default()
 	router.Use(CORSMiddleware())
 
-	router.Use(static.Serve("/", static.LocalFile("./frontend/build", true)))
+	router.Use(static.Serve("/", static.LocalFile("./build", true)))
 	router.NoRoute(func(c *gin.Context) {
-		c.File("./frontend/build/index.html")
+		c.File("./build/index.html")
 	})
 
 	authapi := router.Group("/auth")
