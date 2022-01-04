@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: secret-note-api
-        image: 346088432684.dkr.ecr.us-east-1.amazonaws.com/simple_bank:a9ef5fe6843fd76c8063c14a48e1e999fa6aa325 
+        image: 346088432684.dkr.ecr.us-east-2.amazonaws.com/secretnote:latest 
         ports:
         - containerPort: 8080
