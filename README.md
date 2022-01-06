@@ -144,5 +144,5 @@ Features:
     kubectl apply -f backend/eks/service.yaml
     ```
 ## To do in the future
-- Write the mock test
+- Write the mock test via gomock
 - Setup fully auto deployment to AWS EKS
