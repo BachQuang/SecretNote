@@ -9,13 +9,13 @@ The repository includes design, develop, and deploy a complete system using Reac
 
 ## Secret Note service
 
-The service that I am going to build is a Secret Note.:
+The service that I built is a Secret Note:
 
 Features:
 - 1. Login the system via third party: Google Authenticator.
 - 2. After login people can read their note privately.
 - 3. After login people can create their note privately
-- 4. Automatically run CI/CD and deploy to AWSECR
+- 4. Automatically run CI/CD and deploy to AWS ECR
 - 5. Setup .yaml files for deploy to AWS EKS(K8s)
 ## Setup local development
 
