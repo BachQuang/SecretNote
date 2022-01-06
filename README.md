@@ -1,6 +1,8 @@
 # SecretNote
 
-This repository contains the codes of the SecretNote service
+Please visit this link for demo: http://a606cd567c6334074a5404393d41f48c-1169708641.us-east-2.elb.amazonaws.com
+
+This repository contains the codes of the SecretNote service.
 
 The repository includes design, develop, and deploy a complete system using React, Golang, PostgreSQL, Docker(AWS ECR) and K8s(AWS EKS).
 
