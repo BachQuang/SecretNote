@@ -101,7 +101,6 @@ Features:
     yarn start
     ```
 - Run server:
-
     ```bash
     make server
     ```
