@@ -54,7 +54,7 @@ const ListPosts = () => {
     return (
         <div className='container'>
             <button onClick={createNewPost}>
-                Create new post
+                Create new note
             </button>
             <div>
             {listPosts.map(post =>(

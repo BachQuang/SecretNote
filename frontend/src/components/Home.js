@@ -16,8 +16,8 @@ const Home = () => {
         return <Navigate to='/posts' />
     }
     return (
-        <div className='container mt-5'>
-            <button className='btn btn-danger mt-3' onClick={continueWithGoogle}>
+        <div className='container'>
+            <button className='btn btn-danger' onClick={continueWithGoogle}>
                 Login With Google
             </button>
             <br />
