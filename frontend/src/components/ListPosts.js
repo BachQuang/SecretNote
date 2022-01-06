@@ -69,11 +69,11 @@ const ListPosts = () => {
             }
             </div>
             <div>
-            <button onClick={getNextPage}>
-                NextPage
-            </button>
             <button onClick={getPrevPage}>
                 PrevPage
+            </button>
+            <button onClick={getNextPage}>
+                NextPage
             </button>
             <br />
             </div>
